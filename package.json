@@ -1,0 +1,17 @@
+{
+  "name": "mm-verifier",
+  "version": "1.0.0",
+  "repository": "https://github.com/Antony74/mm-verifier.git",
+  "author": "Antony74 <akb@akb.me.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.9.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3",
+    "xstate": "^3.3.3"
+  },
+  "scripts": {
+    "start": "tsc src/node-start.ts && tslint src/node-start.ts && node src/node-start.js"
+  }
+}
+
